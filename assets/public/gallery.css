@@ -1,0 +1,32 @@
+body {
+    color: aqua;
+    background-color: rgba(0, 21, 255, 0.65);
+    height: 100vh;
+}
+
+img {
+    height: 500px;
+    width: 300px;
+}
+h2{
+    color: darkblue;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: darkgray;
+}
+
+.galleryGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+h1{
+    padding-left: 160px;
+}
