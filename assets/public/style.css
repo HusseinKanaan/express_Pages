@@ -7,12 +7,26 @@ body {
 img {
     height: 500px;
     width: 350px;
+    
 }
 
-div {
-    width: 100%;
-}
 
 a {
     color: darkgray;
 }
+
+ul :hover{
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.5s;
+    color: gold;
+    text-decoration: none;
+    text-shadow: 1px 3px aqua;
+}
+div {
+    width: 100%;
+    
+}
+
+
+
